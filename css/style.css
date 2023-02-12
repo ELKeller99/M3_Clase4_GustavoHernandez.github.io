@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .card img{
     height: 200px;
     object-fit: cover;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.0015em;
+    background-image: linear-gradient(180deg, #0ea1ea, #012aa6);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+body{
+    background-image: linear-gradient(180deg, #fafafa, #ffffff6a), url(/images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Productos{
+    background-color: #0ea1ea;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#Productos .col{
+    text-align: center;
+}
+
+footer{
+    background-color: #00000082;
+    backdrop-filter: blur(5px);
+    color: white;
+    height: 150px;
+    padding-top: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Banner{
+    background-image: linear-gradient(180deg, #ffffff, #ffffff89);
+    backdrop-filter: blur(5px);
+
 }
